@@ -1,0 +1,115 @@
+#wrapper {
+  background-color: #EEEEEE;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 1600px;
+  box-shadow: 5px 0 5px -3px #999999, -5px 0 5px -3px #999999;
+  background: #DDDDDD;
+  background: -webkit-linear-gradient(#FFFFFF, #DDDDDD);
+  background: -o-linear-gradient(#FFFFFF, #DDDDDD);
+  background: -moz-linear-gradient(#FFFFFF, #DDDDDD);
+  background: linear-gradient(#FFFFFF, #DDDDDD);
+  height: 100vh; }
+
+ul, body {
+  padding: 0px;
+  margin: 0px; }
+
+body {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 110%; }
+
+.top-nav {
+  text-align: center; }
+  .top-nav li {
+    margin-top: 25px;
+    display: inline-block;
+    list-style: none; }
+  .top-nav a {
+    color: #333333;
+    padding: 10px 30px;
+    margin: 10px;
+    top: 0px;
+    position: relative;
+    box-shadow: 3px 0 5px -3px #999999, -3px 0 5px -3px #999999;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    transition: 0.1s ease-out;
+    z-index: 2; }
+  .top-nav a:hover {
+    top: -4px;
+    color: #999999; }
+
+.bottom-nav {
+  display: table;
+  margin-right: auto;
+  margin-left: auto; }
+  .bottom-nav a {
+    color: #333333;
+    font-size: 70%;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.1s ease-out;
+    position: relative; }
+  .bottom-nav a:hover {
+    color: #999999; }
+
+@media screen and (min-width: 700px) {
+  .vcenter {
+    display: flex;
+    align-items: center; } }
+
+.parts .part-image img {
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 15px; }
+.parts .part-description {
+  text-align: center; }
+  .parts .part-description .part-description-head {
+    font-size: 150%;
+    padding: 0px;
+    margin: 0px; }
+  .parts .part-description .part-description-body {
+    padding: 0px 25px 25px 25px;
+    line-height: 190%; }
+.parts .learn-more {
+  color: #333333;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.2s ease-out;
+  border-radius: 5px; }
+.parts a.learn-more:hover {
+  color: #999999; }
+
+#part-header {
+  text-align: center; }
+
+#part {
+  width: 65%;
+  margin-right: auto;
+  margin-left: auto;
+  border-spacing: 25px; }
+
+.picture {
+  border-radius: 15px;
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px; }
+
+.description {
+  line-height: 200%; }
+
+li {
+  margin: 0 0 10px 0; }
+
+ul {
+  list-style-position: inside; }
+
+/*# sourceMappingURL=style.css.map */
