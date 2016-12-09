@@ -41,7 +41,7 @@
 			</div>
 		</div>
 		
-		<?php drawBottom(); ?>
+		<?php //drawBottom(); ?>
 	
 	</div>
 

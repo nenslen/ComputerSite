@@ -46,7 +46,7 @@
 		
 		</br>
 		
-		<?php drawBottom(); ?>
+		<?php //drawBottom(); ?>
 	
 	</div>
 
