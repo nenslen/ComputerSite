@@ -44,7 +44,8 @@ body {
     z-index: 2; }
   .top-nav a:hover {
     top: -4px;
-    color: #999999; }
+    color: #999999;
+    text-decoration: none; }
 
 .bottom-nav {
   display: table;

@@ -31,7 +31,7 @@ body {
 .top-nav {
 	text-align: center;
 
-	li {
+	li { 
 		margin-top: 25px;
 		display: inline-block;
 		list-style: none;
@@ -56,6 +56,7 @@ body {
 	a:hover {
 		top: -4px;
 		color: #999999;
+		text-decoration: none;
 	}
 }
 
