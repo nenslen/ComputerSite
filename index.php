@@ -25,12 +25,12 @@
 			<div class="row vcenter" ng-repeat="part in allParts">
 
 				<!-- Image -->
-				<div class="col-sm-3 part-image">
+				<div class="col-sm-4 part-image">
 					<a href="part.php?id={{part.part_id}}"><img class="img-responsive" src="scripts/getImage.php?id={{part.part_id}}" /></a>
 				</div>
 
 				<!-- Description -->
-				<div class="col-sm-9 part-description">
+				<div class="col-sm-8 part-description">
 					<h1>{{part.part_name}}</h1>
 					<p class="part-description-body">
 						{{part.part_description_short}}
