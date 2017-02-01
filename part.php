@@ -25,8 +25,9 @@
 		
 		<div id="part">
 		
-			<img src="scripts/getImage.php?id={{part_id}}" class="picture img-responsive" />
-		
+			<!--<img src="scripts/getImage.php?id={{part_id}}" class="picture img-responsive" />-->
+			<img ng-src="{{part_image}}" class="picture img-responsive" />
+
 			
 			<h2 class="partData">Also Known As:</h2>
 			<p style="margin: 10px;">{{part_synonyms}}</p>
@@ -75,7 +76,8 @@
 			$scope.part_name = part.part_name;
 			$scope.part_description = part.part_description_long;
 			$scope.part_synonyms = part.part_synonyms;
-			
+			$scope.part_image = "pictures/" + part.part_image;
+			console.log(part.part_image);
 			$scope.part_facts = [];
 			var temp = String(part.part_facts).split(",");
 			var i;

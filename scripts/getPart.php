@@ -15,7 +15,7 @@
 		
 	$id = $_GET['id'];
 		
-	$result = mysqli_query($conn, "SELECT part_id, part_name, part_description_short, part_description_long, part_synonyms, part_facts 
+	$result = mysqli_query($conn, "SELECT part_id, part_name, part_description_short, part_description_long, part_synonyms, part_facts, part_image 
 								   FROM part
 								   WHERE part_id = $id;");
 	

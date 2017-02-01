@@ -20,13 +20,15 @@
 
 		<?php drawTop(); ?>
 		
+		<h1 id="main-title">Computer Hardware Information</h1>
+
 
 		<div class="parts">
 			<div class="row vcenter" ng-repeat="part in allParts">
 
 				<!-- Image -->
 				<div class="col-sm-4 part-image">
-					<a href="part.php?id={{part.part_id}}"><img class="img-responsive" src="scripts/getImage.php?id={{part.part_id}}" /></a>
+					<a href="part.php?id={{part.part_id}}"><img ng-src="pictures/{{part.part_image}}" class="img-responsive" /></a>
 				</div>
 
 				<!-- Description -->
@@ -52,7 +54,6 @@
 	
 		// Gather all part data
 		$http.get("scripts/getAllParts.php").then(function (response) { $scope.allParts = response.data; });
-		
 	});
 </script>
 </body>
